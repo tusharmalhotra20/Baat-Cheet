@@ -9,12 +9,12 @@ import ChatProvider from "./Context/ChatProvider";
 //Everything is wrapped inside the "ChatProvider", so that whatever state that is created inside the "ChatProvider" is accessible to whole of our app.
 
 ReactDOM.render(
-  <ChakraProvider>
-    <BrowserRouter>
+  <BrowserRouter>
+    <ChakraProvider>
       <ChatProvider>
         <App />
       </ChatProvider>
-    </BrowserRouter>
-  </ChakraProvider>,
+    </ChakraProvider>
+  </BrowserRouter>,
   document.getElementById("root")
 );

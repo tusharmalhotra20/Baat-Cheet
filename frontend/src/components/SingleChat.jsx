@@ -17,7 +17,7 @@ import io from "socket.io-client";
 import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 
-const ENDPOINT = "https://baatt-cheett.herokuapp.com/"; // "http://localhost:5000"; -> Before deployment
+const ENDPOINT = "https://baatt-cheett.herokuapp.com/"; 
 // const ENDPOINT = "http://localhost:5000"; // "http://localhost:5000"; -> Before deployment
 var socket, selectedChatCompare;
 
