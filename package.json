@@ -1,0 +1,27 @@
+{
+  "name": "baat-cheet",
+  "version": "1.0.0",
+  "description": "It's a web chat application.",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "author": "Tushar Malhotra",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15",
+    "react-router-dom": "^6.2.2",
+    "socket.io": "^4.4.1"
+  }
+}
